@@ -8,7 +8,11 @@
 
 ColorTransfer provides a suite of tools for color migration tasks.
 
-## Quick Start
+## Installation
 ```bash
+# from local(without uv)
+pip install -e .
 
+# from local(with uv)
+uv sync
 ```
