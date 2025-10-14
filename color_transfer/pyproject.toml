@@ -1,6 +1,6 @@
 [project]
-name = "color_transfer"
-version = "1.0.0"
+name = "chromasoul_color_transfer"
+version = "1.0.1"
 description = "ColorTransfer provides a suite of tools for color migration tasks."
 readme = "README.md"
 authors = [
@@ -12,6 +12,9 @@ dependencies = [
     "numpy==1.26",
     "opencv-python>=4.11.0.86",
 ]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/color_transfer"]
 
 [project.scripts]
 color_transfer = "color_transfer.cli:main"

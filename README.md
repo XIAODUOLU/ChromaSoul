@@ -1,4 +1,4 @@
-# ChromaSoul
+# ChromaSoul (彩境灵犀)
 
 > Where colors find their destiny.
 
@@ -13,17 +13,21 @@ ChromaSoul is an intelligent style transfer framework dedicated to achieving uni
 ## Core Features
 
 ### 🎨 One-Click Unification
+
 Specify a reference image to batch unify the tone, brightness, and style of an entire image set, maintaining consistent visual style across your work.
 
 ### 🌈 Multi-Domain Transfer
+
 - **Artistic Style Transfer**: Apply the style of classic artworks to your images
 - **Makeup Transfer**: Intelligent makeup effect transfer, making beauty accessible
 - **Tone Alignment**: Precise color matching and adjustment
 
 ### 🧠 Intelligent Adaptation
+
 Intelligently adjusts images with different lighting conditions and content types to ensure natural and harmonious transfer effects, avoiding rigid style conversions.
 
 ### 👥 User-Friendly
+
 - Clean and intuitive interface design
 - Easy to use even for non-professionals
 - Rich preset templates and customization options
@@ -31,6 +35,7 @@ Intelligently adjusts images with different lighting conditions and content type
 ## Technical Architecture
 
 ChromaSoul is built on advanced deep learning technologies, combining:
+
 - Neural style transfer algorithms
 - Color space conversion techniques
 - Intelligent content-aware processing
@@ -43,13 +48,12 @@ ChromaSoul is built on advanced deep learning technologies, combining:
 - **Content Creation**: Create consistent visual styles for social media content
 - **Artistic Exploration**: Explore visual effects of different artistic styles
 
-## License
+## Sub Project List
 
-This project is licensed under the AGPLv3 License. This means you are free to use, modify, and distribute the code, but any modifications or services based on this project must be open-sourced under the same license. For commercial closed-source integration, please contact us for a commercial license.
+- [ColorTransfer](color_transfer/README.md) provides a suite of tools for color migration tasks.
+- (Upcoming Update)...
 
-See the [LICENSE](LICENSE) file for details.
-
-## Contact Us
+## Contact Me
 
 - Project Homepage: [GitHub Repository](https://github.com/XIAODUOLU/ChromaSoul)
 - Issue Reports: [Issues](https://github.com/XIAODUOLU/ChromaSoul/issues)
