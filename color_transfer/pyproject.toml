@@ -1,0 +1,11 @@
+[project]
+name = "color-transfer"
+version = "1.0.0"
+description = "ColorTransfer provides a suite of tools for color migration tasks."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "black>=25.9.0",
+    "numpy==1.26",
+    "opencv-python>=4.11.0.86",
+]
