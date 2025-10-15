@@ -72,6 +72,7 @@ if __name__ == "__main__":
 - lab (Reinhard)
 - pdf (Probability Density Function)
 - lhm (Linear Histogram Matching)
+- pccm (Principal Component Color Matching)
 
 ## License
 

@@ -23,10 +23,9 @@ class PDFTransfer(BaseTransfer):
         """Initialize PDF transfer with parameters.
 
         Args:
-            eps: Small value to prevent division by zero.
-            n_bins: Number of bins for histogram discretization.
             regrain: Whether to apply texture preservation.
             smoothness: Smoothness parameter for regrain.
+            n_bits: Pyramid levels.
         """
         super().__init__()
         self.regrain = regrain

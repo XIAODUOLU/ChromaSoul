@@ -3,12 +3,18 @@
 
 from color_transfer.libs.base_transfer import BaseTransfer
 import numpy as np
+from typing import Optional
 
 
 class MeanStdTransfer(BaseTransfer):
     """Transfer reference image's mean, std to input image's mean, std.
     img_tgt = (img - mean(img)) / std(img) * std(img_ref) + mean(img_ref).
     """
+
+    def __init__(self):
+        super().__init__()
+        self.mean_ref: Optional[np.ndarray] = None
+        self.std_ref: Optional[np.ndarray] = None
 
     def extract(self, img_ref: np.ndarray):
         """Extract reference mean, std.

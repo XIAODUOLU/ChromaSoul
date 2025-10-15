@@ -6,6 +6,7 @@ from color_transfer.libs.mean_std_transfer import MeanStdTransfer
 from color_transfer.libs.lab_transfer import LABTransfer
 from color_transfer.libs.pdf_transfer import PDFTransfer
 from color_transfer.libs.lhm_transfer import LHMTransfer
+from color_transfer.libs.pccm_transfer import PCCMTransfer
 from typing import Dict, Type
 
 
@@ -16,6 +17,7 @@ class TransferFactory:
         "lab": LABTransfer,
         "pdf": PDFTransfer,
         "lhm": LHMTransfer,
+        "pccm": PCCMTransfer,
     }
 
     @classmethod

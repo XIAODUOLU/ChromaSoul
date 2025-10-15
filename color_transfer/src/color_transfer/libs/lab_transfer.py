@@ -3,10 +3,16 @@
 
 from color_transfer.libs.base_transfer import BaseTransfer
 import numpy as np
+from typing import Optional
 
 
 class LABTransfer(BaseTransfer):
     """Transfer reference image's mean, std to input image's mean, std in LAB color space."""
+
+    def __init__(self):
+        super().__init__()
+        self.mean_ref: Optional[np.ndarray] = None
+        self.std_ref: Optional[np.ndarray] = None
 
     def _bgr2lab(self, bgr_img: np.ndarray) -> np.ndarray:
         """Convert BGR image to LAB color space using NumPy."""
