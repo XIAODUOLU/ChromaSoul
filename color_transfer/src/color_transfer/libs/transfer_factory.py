@@ -4,6 +4,7 @@
 from color_transfer.libs.base_transfer import BaseTransfer
 from color_transfer.libs.mean_std_transfer import MeanStdTransfer
 from color_transfer.libs.lab_transfer import LabTransfer
+from color_transfer.libs.pdf_transfer import PDFTransfer
 from typing import Dict, Type
 
 
@@ -12,6 +13,7 @@ class TransferFactory:
     transfer_map: Dict[str, Type[BaseTransfer]] = {
         "mean_std": MeanStdTransfer,
         "lab": LabTransfer,
+        "pdf": PDFTransfer,
     }
 
     @classmethod
