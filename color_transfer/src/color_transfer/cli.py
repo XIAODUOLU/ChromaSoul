@@ -52,7 +52,7 @@ Examples:
         "-m",
         type=str,
         default="mean_std",
-        choices=["mean_std"],  # Currently only mean_std is available
+        choices=TransferFactory.transfer_map.keys(),
         help="Color transfer method to use (default: mean_std)",
     )
 

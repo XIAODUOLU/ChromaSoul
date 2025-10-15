@@ -66,6 +66,11 @@ if __name__ == "__main__":
 
 ```
 
+## Available Methods
+
+- mean_std
+- lab (Reinhard)
+
 ## License
 
 This project is licensed under the AGPLv3 License. This means you are free to use, modify, and distribute the code, but any modifications or services based on this project must be open-sourced under the same license. For commercial closed-source integration, please contact us for a commercial license.

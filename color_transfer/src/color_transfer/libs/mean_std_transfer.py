@@ -11,7 +11,7 @@ class MeanStdTransfer(BaseTransfer):
     """
 
     def extract(self, img_ref: np.ndarray):
-        """Extract reference mean, std and return success flag.
+        """Extract reference mean, std.
 
         Args:
             img_ref: bgr numpy array of reference image.
