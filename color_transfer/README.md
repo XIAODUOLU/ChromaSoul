@@ -71,6 +71,7 @@ if __name__ == "__main__":
 - mean_std
 - lab (Reinhard)
 - pdf (Probability Density Function)
+- lhm (Linear Histogram Matching)
 
 ## License
 

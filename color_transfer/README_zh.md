@@ -29,10 +29,10 @@ uv sync
 1. 使用命令行工具
 
 ```bash
-color_transfer --input /path/to/input_image --reference /path/to/reference_image --output /path/to/output_image
+color_transfer --input /path/to/input_image --reference /path/to/reference_image --output /path/to/output_image --method mean_std --verbose
 
 # 或使用简写
-color_transfer -i /path/to/input_image -r /path/to/reference_image -o /path/to/output_image
+color_transfer -i /path/to/input_image -r /path/to/reference_image -o /path/to/output_image -m mean_std -v
 ```
 
 2. 使用示例代码
@@ -72,6 +72,7 @@ if __name__ == "__main__":
 - mean_std
 - lab (Reinhard)
 - pdf (Probability Density Function)
+- lhm (Linear Histogram Matching)
 
 ## 许可证
 

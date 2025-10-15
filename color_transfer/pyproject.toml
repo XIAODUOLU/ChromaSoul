@@ -1,6 +1,6 @@
 [project]
 name = "chromasoul_color_transfer"
-version = "1.0.2"
+version = "1.0.3"
 description = "ColorTransfer provides a suite of tools for color migration tasks."
 readme = "README.md"
 authors = [

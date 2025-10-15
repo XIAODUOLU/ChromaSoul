@@ -5,7 +5,7 @@ from color_transfer.libs.base_transfer import BaseTransfer
 import numpy as np
 
 
-class LabTransfer(BaseTransfer):
+class LABTransfer(BaseTransfer):
     """Transfer reference image's mean, std to input image's mean, std in LAB color space."""
 
     def _bgr2lab(self, bgr_img: np.ndarray) -> np.ndarray:
