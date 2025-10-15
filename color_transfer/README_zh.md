@@ -15,7 +15,7 @@ ColorTransfer 提供了一套用于颜色迁移任务的工具集。
 pip install chromasoul_color_transfer
 
 # 从发布版本安装
-pip install chromasoul_color_transfer-1.0.1-py3-none-any.whl
+pip install chromasoul_color_transfer-{version}-py3-none-any.whl
 
 # 从本地安装（不使用 uv）
 pip install -e .

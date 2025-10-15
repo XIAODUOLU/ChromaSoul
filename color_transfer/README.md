@@ -15,7 +15,7 @@ ColorTransfer provides a suite of tools for color migration tasks.
 pip install chromasoul_color_transfer
 
 # from release
-pip install chromasoul_color_transfer-1.0.1-py3-none-any.whl
+pip install chromasoul_color_transfer-{version}-py3-none-any.whl
 
 # from source code(without uv)
 pip install -e .
