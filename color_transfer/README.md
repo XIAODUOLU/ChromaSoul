@@ -73,6 +73,8 @@ if __name__ == "__main__":
 - pdf (Probability Density Function)
 - lhm (Linear Histogram Matching)
 - pccm (Principal Component Color Matching)
+- emd (Earth Mover’s Distance OT method)
+- sinkhorn (Sinkhorn OT method)
 
 ## License
 

@@ -7,6 +7,8 @@ from color_transfer.libs.lab_transfer import LABTransfer
 from color_transfer.libs.pdf_transfer import PDFTransfer
 from color_transfer.libs.lhm_transfer import LHMTransfer
 from color_transfer.libs.pccm_transfer import PCCMTransfer
+from color_transfer.libs.emd_transfer import EMDTransfer
+from color_transfer.libs.sinkhorn_transfer import SinkhornTransfer
 from typing import Dict, Type
 
 
@@ -18,6 +20,8 @@ class TransferFactory:
         "pdf": PDFTransfer,
         "lhm": LHMTransfer,
         "pccm": PCCMTransfer,
+        "emd": EMDTransfer,
+        "sinkhorn": SinkhornTransfer,
     }
 
     @classmethod
