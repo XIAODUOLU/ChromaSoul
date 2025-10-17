@@ -36,7 +36,7 @@ Intelligently adjusts images with different lighting conditions and content type
 
 ChromaSoul is built on advanced deep learning technologies, combining:
 
-- Neural style transfer algorithms
+- FastPhotoStyle style transfer algorithms
 - Color space conversion techniques
 - Intelligent content-aware processing
 - Efficient batch processing engine
@@ -51,6 +51,7 @@ ChromaSoul is built on advanced deep learning technologies, combining:
 ## Sub Project List
 
 - [ColorTransfer](color_transfer/README.md) provides a suite of tools for color migration tasks.
+- [StyleTransfer](style_transfer/README.md) provides a suite of tools for style migration tasks.
 - (Upcoming Update)...
 
 ## Contact Me

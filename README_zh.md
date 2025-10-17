@@ -50,7 +50,8 @@ ChromaSoul 基于先进的深度学习技术构建，结合了：
 
 ## 子工程列表
 
-- [ColorTransfer](color_transfer/README.md) 提供了一套用于颜色迁移任务的工具集。
+- [ColorTransfer](color_transfer/README_zh.md) 提供了一套用于颜色迁移任务的工具集。
+- [StyleTransfer](style_transfer/README_zh.md) 提供了一套用于风格迁移任务的工具集。
 - (待更新)...
 
 ## 联系我
